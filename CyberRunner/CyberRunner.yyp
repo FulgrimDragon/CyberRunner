@@ -68,6 +68,7 @@
     {"id":{"name":"spr_blank","path":"sprites/spr_blank/spr_blank.yy",},},
     {"id":{"name":"obj_text_display","path":"objects/obj_text_display/obj_text_display.yy",},},
     {"id":{"name":"spr_game_logo","path":"sprites/spr_game_logo/spr_game_logo.yy",},},
+    {"id":{"name":"obj_spawner_dev","path":"objects/obj_spawner_dev/obj_spawner_dev.yy",},},
     {"id":{"name":"kill_player","path":"scripts/kill_player/kill_player.yy",},},
     {"id":{"name":"dmg_player","path":"scripts/dmg_player/dmg_player.yy",},},
     {"id":{"name":"bck_space","path":"sprites/bck_space/bck_space.yy",},},
