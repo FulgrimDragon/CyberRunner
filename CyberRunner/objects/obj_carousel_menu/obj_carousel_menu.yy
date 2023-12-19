@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "caroisel",
-    "path": "folders/Objects/Game Objects/Menus/caroisel.yy",
+    "name": "carousel",
+    "path": "folders/Objects/Game Objects/Menus/carousel.yy",
   },
   "parentObjectId": null,
   "persistent": false,

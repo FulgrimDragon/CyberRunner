@@ -11,7 +11,7 @@ function menu_choice(_menu_pos){
 		
 		case 1:
 		{
-			
+			slide_transition(TRANS_MODE.GOTO,rm_menu);
 			break;
 		}
 		
@@ -23,7 +23,7 @@ function menu_choice(_menu_pos){
 		
 		case 3:
 		{
-			slide_transition(TRANS_MODE.GOTO,rm_menu);
+			
 			break;
 		}
 	}
