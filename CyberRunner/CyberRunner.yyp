@@ -71,7 +71,7 @@
     {"id":{"name":"kill_player","path":"scripts/kill_player/kill_player.yy",},},
     {"id":{"name":"dmg_player","path":"scripts/dmg_player/dmg_player.yy",},},
     {"id":{"name":"bck_space","path":"sprites/bck_space/bck_space.yy",},},
-    {"id":{"name":"obj_spawner_dev","path":"objects/obj_spawner_dev/obj_spawner_dev.yy",},},
+    {"id":{"name":"par_spawner","path":"objects/par_spawner/par_spawner.yy",},},
     {"id":{"name":"fnt_default","path":"fonts/fnt_default/fnt_default.yy",},},
     {"id":{"name":"spawn_frq","path":"scripts/spawn_frq/spawn_frq.yy",},},
     {"id":{"name":"slide_transition","path":"scripts/slide_transition/slide_transition.yy",},},
