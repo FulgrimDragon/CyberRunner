@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "Powerup scripts",
-    "path": "folders/Scripts/Powerup scripts.yy",
+    "name": "Player scripts",
+    "path": "folders/Scripts/Player scripts.yy",
   },
 }

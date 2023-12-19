@@ -28,8 +28,8 @@
   "nineSlice": null,
   "origin": 1,
   "parent": {
-    "name": "Game Sprites",
-    "path": "folders/Sprites/Game Sprites.yy",
+    "name": "Player Sprites",
+    "path": "folders/Sprites/Entity Sprites/Player Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

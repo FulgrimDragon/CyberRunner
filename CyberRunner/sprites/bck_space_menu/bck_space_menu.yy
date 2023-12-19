@@ -27,8 +27,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Game Sprites",
-    "path": "folders/Sprites/Game Sprites.yy",
+    "name": "backgrounds",
+    "path": "folders/Sprites/Game Sprites/backgrounds.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
