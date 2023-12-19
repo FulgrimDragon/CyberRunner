@@ -24,6 +24,7 @@ if (menu_control)
 		menu_y_target = gui_height+600;
 		menu_committed = menu_cursor;
 		screen_shake(6,4,0.2)
+		audio_play_sound(snd_select,10,false);
 		menu_control = false;
 	}
 	#endregion
@@ -39,6 +40,7 @@ if (menu_control)
 			menu_y_target = gui_height+600;
 			menu_committed = menu_cursor;
 			screen_shake(6,4,0.2)
+			audio_play_sound(snd_select,10,false);
 			menu_control = false;
 		}
 	}
@@ -56,14 +58,14 @@ if (menu_y > gui_height+450) && (menu_committed != -1)
 	*/
 	switch (menu_committed)
 	{
-		case 3: 
+		case 3: 			
 			slide_transition(TRANS_MODE.GOTO,rm_level_select);
 			break;
 		case 2: 
 			slide_transition(TRANS_MODE.GOTO,rm_credits);
 			break;	
 		case 1:
-			slide_transition(TRANS_MODE.GOTO,rm_options);
+			slide_transition(TRANS_MODE.GOTO,rm_options);	
 			break;	
 		case 0:
 			game_end();

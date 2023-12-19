@@ -19,7 +19,8 @@ if (menu_control)
 	if (keyboard_check_pressed(vk_enter) || keyboard_check_pressed(vk_space))
 	{
 		menu_committed = menu_cursor;
-		screen_shake(6,4,0.2)
+		screen_shake(6,4,0.2);
+		audio_play_sound(snd_select,10,false);
 		menu_control = false;
 	}
 	#endregion
@@ -33,7 +34,8 @@ if (menu_control)
 		if (mouse_check_button_pressed(mb_left))
 		{
 			menu_committed = menu_cursor;
-			screen_shake(6,4,0.2)
+			screen_shake(6,4,0.2);
+			audio_play_sound(snd_select,10,false);
 			menu_control = false;
 		}
 
@@ -52,6 +54,10 @@ if (menu_committed != -1)
 	*/
 	switch (menu_committed)
 	{
+		case 2:		
+			if(global.music) global.music = false; else global.music = true;
+			room_restart();
+			break;
 		case 1:	
 			window_set_fullscreen(!window_get_fullscreen());
 			room_restart();
@@ -71,4 +77,11 @@ if(window_get_fullscreen() == true) fullscreen = true; else fullscreen = false;
 	} else {
 		menu[1] = "FULLSCREEN: ON";
 	}	
+	
+if(global.music == true){
+	menu[2] = "MUSIC: ON";
+} else {
+	menu[2] = "MUSIC: OFF";
+}
+	
 #endregion

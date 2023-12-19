@@ -19,4 +19,7 @@ var _select;
 
 _select = max(keyboard_check_pressed(vk_enter),keyboard_check_pressed(vk_space),0)
 
-if (_select == 1) menu_choice(item); 
+if (_select == 1){
+	audio_play_sound(snd_select,10,false);
+	menu_choice(item); 
+}

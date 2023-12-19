@@ -16,3 +16,5 @@ textscale_score = 0.7;
 //splash
 splash_timer = 0;
 
+//stop all sounds
+audio_stop_all();
