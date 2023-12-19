@@ -10,6 +10,4 @@ spr_w = sprite_height;
 
 //point towards player and move
 rand_d = random_range(rand_range,-rand_range);
-
-direction = point_direction(x,y,obj_player.x,obj_player.y);
-motion_set(direction+rand_d,spd);
+motion_set(180+rand_d,spd);

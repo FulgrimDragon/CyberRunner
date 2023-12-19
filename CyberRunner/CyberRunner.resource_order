@@ -31,6 +31,8 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
     {"name":"backgrounds","order":8,"path":"folders/Sprites/Game Sprites/backgrounds.yy",},
+    {"name":"Spawners","order":4,"path":"folders/Objects/Game Objects/Spawners.yy",},
+    {"name":"spawner","order":4,"path":"folders/Scripts/Game scripts/spawner.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_wall","order":1,"path":"sprites/spr_wall/spr_wall.yy",},
