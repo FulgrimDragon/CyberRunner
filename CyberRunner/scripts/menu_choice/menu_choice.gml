@@ -11,19 +11,19 @@ function menu_choice(_menu_pos){
 		
 		case 1:
 		{
-			slide_transition(TRANS_MODE.GOTO,rm_dev);			
+			slide_transition(TRANS_MODE.GOTO,rm_lvl_1);			
 			break;
 		}
 		
 		case 2:
 		{
-			
+			slide_transition(TRANS_MODE.GOTO,rm_lvl_2);	
 			break;
 		}
 		
 		case 3:
 		{
-
+			slide_transition(TRANS_MODE.GOTO,rm_lvl_3);	
 			break;
 		}
 	}

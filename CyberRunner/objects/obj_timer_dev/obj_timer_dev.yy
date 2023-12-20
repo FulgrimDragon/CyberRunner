@@ -8,8 +8,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_timer","path":"objects/par_timer/par_timer.yy",},"propertyId":{"name":"seconds","path":"objects/par_timer/par_timer.yy",},"value":"30",},
   ],
   "parent": {
-    "name": "Timers",
-    "path": "folders/Objects/Game Objects/Level objects/Timers.yy",
+    "name": "Dev",
+    "path": "folders/Objects/Game Objects/Level objects/Levels/Dev.yy",
   },
   "parentObjectId": {
     "name": "par_timer",

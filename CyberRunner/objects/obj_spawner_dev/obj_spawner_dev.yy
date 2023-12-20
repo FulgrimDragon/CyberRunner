@@ -15,8 +15,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_spawner","path":"objects/par_spawner/par_spawner.yy",},"propertyId":{"name":"firepower_frq","path":"objects/par_spawner/par_spawner.yy",},"value":"spawn_frq(8,12)",},
   ],
   "parent": {
-    "name": "Spawners",
-    "path": "folders/Objects/Game Objects/Level objects/Spawners.yy",
+    "name": "Dev",
+    "path": "folders/Objects/Game Objects/Level objects/Levels/Dev.yy",
   },
   "parentObjectId": {
     "name": "par_spawner",

@@ -14,7 +14,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Spawners",
-    "path": "folders/Objects/Game Objects/Level objects/Spawners.yy",
+    "path": "folders/Objects/Game Objects/Level objects/Parent objects/Spawners.yy",
   },
   "parentObjectId": null,
   "persistent": false,

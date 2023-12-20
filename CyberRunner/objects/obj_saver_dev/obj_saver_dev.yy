@@ -8,8 +8,8 @@
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_saver","path":"objects/par_saver/par_saver.yy",},"propertyId":{"name":"level","path":"objects/par_saver/par_saver.yy",},"value":"dev",},
   ],
   "parent": {
-    "name": "highscore",
-    "path": "folders/Objects/Game Objects/Level objects/highscore.yy",
+    "name": "Dev",
+    "path": "folders/Objects/Game Objects/Level objects/Levels/Dev.yy",
   },
   "parentObjectId": {
     "name": "par_saver",
