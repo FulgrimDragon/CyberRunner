@@ -11,7 +11,6 @@
     {"name":"Game Objects","order":5,"path":"folders/Objects/Game Objects.yy",},
     {"name":"caroisel","order":4,"path":"folders/Objects/Game Objects/Menus/caroisel.yy",},
     {"name":"Persistent objects","order":1,"path":"folders/Objects/Game Objects/Persistent objects.yy",},
-    {"name":"Spawners","order":4,"path":"folders/Objects/Game Objects/Spawners.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
@@ -33,6 +32,8 @@
     {"name":"carousel","order":1,"path":"folders/Sprites/Game Sprites/Menus/carousel.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Level objects","order":5,"path":"folders/Objects/Game Objects/Level objects.yy",},
+    {"name":"Timers","order":1,"path":"folders/Objects/Game Objects/Level objects/Timers.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"snd_select","order":2,"path":"sounds/snd_select/snd_select.yy",},
