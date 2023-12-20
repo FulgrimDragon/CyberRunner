@@ -1,19 +1,19 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_saver_dev",
+  "name": "obj_timer_dev",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_saver","path":"objects/par_saver/par_saver.yy",},"propertyId":{"name":"level","path":"objects/par_saver/par_saver.yy",},"value":"dev",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_timer","path":"objects/par_timer/par_timer.yy",},"propertyId":{"name":"seconds","path":"objects/par_timer/par_timer.yy",},"value":"30",},
   ],
   "parent": {
-    "name": "highscore",
-    "path": "folders/Objects/Game Objects/Level objects/highscore.yy",
+    "name": "Timers",
+    "path": "folders/Objects/Game Objects/Level objects/Timers.yy",
   },
   "parentObjectId": {
-    "name": "par_saver",
-    "path": "objects/par_saver/par_saver.yy",
+    "name": "par_timer",
+    "path": "objects/par_timer/par_timer.yy",
   },
   "persistent": false,
   "physicsAngularDamping": 0.1,

@@ -1,10 +1,10 @@
 /// @desc Move through the menu
 
 if (keyboard_check_pressed(vk_right) || keyboard_check_pressed(ord("D"))){
-	selected += 1;
+	selected -= 1;
 }
 else if (keyboard_check_pressed(vk_left) || keyboard_check_pressed(ord("A"))){
-	selected -= 1;
+	selected += 1;
 }
 
 rot -= angle_diff(rot, selected * (360/ image_number)) / (0.2*60);

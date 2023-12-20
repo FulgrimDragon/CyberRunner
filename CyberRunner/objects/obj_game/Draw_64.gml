@@ -77,8 +77,13 @@ if(room == rm_level_select){
 	
 	//draw highscores
 	if(obj_carousel_menu.item != 0){
+		draw_set_text(c_black,fnt_default,fa_center,fa_middle);
+		draw_text_transformed((RES_W*0.5)-2,(RES_H*0.5),"HIGHSCORE: "+string(_highscore),textscale_levels,textscale_levels,0);
+		draw_text_transformed((RES_W*0.5)+2,(RES_H*0.5),"HIGHSCORE: "+string(_highscore),textscale_levels,textscale_levels,0);
+		draw_text_transformed((RES_W*0.5),(RES_H*0.5)-2,"HIGHSCORE: "+string(_highscore),textscale_levels,textscale_levels,0);
+		draw_text_transformed((RES_W*0.5),(RES_H*0.5)+2,"HIGHSCORE: "+string(_highscore),textscale_levels,textscale_levels,0);
 		draw_set_text(c_white,fnt_default,fa_center,fa_middle);
-		draw_text_transformed(RES_W*0.5,RES_H*0.5,"HIGHSCORE: "+string(_highscore),textscale_score,textscale_score,0);
+		draw_text_transformed(RES_W*0.5,RES_H*0.5,"HIGHSCORE: "+string(_highscore),textscale_levels,textscale_levels,0);
 	}
 }
 #endregion
