@@ -19,3 +19,6 @@ splash_timer = 0;
 
 //stop all sounds
 audio_stop_all();
+
+//win tracker
+global.win = false;

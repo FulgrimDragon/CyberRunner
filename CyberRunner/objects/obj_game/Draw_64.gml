@@ -9,12 +9,12 @@ if(room == rm_dev){
 
 	//display health number
 	draw_set_text(c_black,fnt_default,fa_center,fa_top);
-	draw_text_transformed((RES_W*0.5)-2,20,"HP: " + string(global.health) + "/" + string(global.health_max),textscale_health,textscale_health,0);
-	draw_text_transformed((RES_W*0.5)+2,20,"HP: " + string(global.health) + "/" + string(global.health_max),textscale_health,textscale_health,0);
-	draw_text_transformed((RES_W*0.5),18,"HP: " + string(global.health) + "/" + string(global.health_max),textscale_health,textscale_health,0);
-	draw_text_transformed((RES_W*0.5),22,"HP: " + string(global.health) + "/" + string(global.health_max),textscale_health,textscale_health,0);
+	draw_text_transformed((RES_W*0.5)-2,21,"HP: " + string(global.health) + "/" + string(global.health_max),textscale_health,textscale_health,0);
+	draw_text_transformed((RES_W*0.5)+2,21,"HP: " + string(global.health) + "/" + string(global.health_max),textscale_health,textscale_health,0);
+	draw_text_transformed((RES_W*0.5),19,"HP: " + string(global.health) + "/" + string(global.health_max),textscale_health,textscale_health,0);
+	draw_text_transformed((RES_W*0.5),23,"HP: " + string(global.health) + "/" + string(global.health_max),textscale_health,textscale_health,0);
 	draw_set_text(c_white,fnt_default,fa_center,fa_top);
-	draw_text_transformed(RES_W*0.5,20,"HP: " + string(global.health) + "/" + string(global.health_max),textscale_health,textscale_health,0);
+	draw_text_transformed(RES_W*0.5,21,"HP: " + string(global.health) + "/" + string(global.health_max),textscale_health,textscale_health,0);
 
 	//draw shield counter
 	draw_sprite(spr_shield_counter,global.shield,RES_W*0.5,47);	
@@ -26,12 +26,12 @@ if(room == rm_dev){
 	
 	//draw score
 	draw_set_text(c_black,fnt_default,fa_center,fa_top);
-	draw_text_transformed((RES_W*0.5)-2,5,string(global.game_score),textscale_score,textscale_score,0);
-	draw_text_transformed((RES_W*0.5)+2,5,string(global.game_score),textscale_score,textscale_score,0);
-	draw_text_transformed((RES_W*0.5),7,string(global.game_score),textscale_score,textscale_score,0);
-	draw_text_transformed((RES_W*0.5),3,string(global.game_score),textscale_score,textscale_score,0);
+	draw_text_transformed((RES_W*0.5)-2,4.5,string(global.game_score),textscale_score,textscale_score,0);
+	draw_text_transformed((RES_W*0.5)+2,4.5,string(global.game_score),textscale_score,textscale_score,0);
+	draw_text_transformed((RES_W*0.5),5.5,string(global.game_score),textscale_score,textscale_score,0);
+	draw_text_transformed((RES_W*0.5),2.5,string(global.game_score),textscale_score,textscale_score,0);
 	draw_set_text(c_white,fnt_default,fa_center,fa_top);
-	draw_text_transformed((RES_W*0.5),5,string(global.game_score),textscale_score,textscale_score,0);
+	draw_text_transformed((RES_W*0.5),4.5,string(global.game_score),textscale_score,textscale_score,0);
 }	
 #endregion
 
