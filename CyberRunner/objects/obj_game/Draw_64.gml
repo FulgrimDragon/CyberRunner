@@ -42,20 +42,29 @@ if(room == rm_credits){
 	draw_text_transformed((RES_W*0.5)-2,150,"a game by",textscale_credits,textscale_credits,0);
 	draw_text_transformed(RES_W*0.5,152,"a game by",textscale_credits,textscale_credits,0);
 	draw_text_transformed(RES_W*0.5,148,"a game by",textscale_credits,textscale_credits,0);
-	draw_set_text(c_white,fnt_default,fa_center,fa_top);
+	draw_set_text(c_lime,fnt_default,fa_center,fa_top);
 	draw_text_transformed(RES_W*0.5,150,"a game by",textscale_credits,textscale_credits,0);
 }
 #endregion
 
 #region //death screen text
-if(room == rm_death_scrn){
+if((room == rm_death_scrn)&&(global.win == false)){
 	draw_set_text(c_black,fnt_default,fa_center,fa_middle);
-	draw_text_transformed((RES_W*0.5)+2,RES_H*0.5,"YOU DIED >:(",textscale_death,textscale_death,0);
-	draw_text_transformed((RES_W*0.5)-2,RES_H*0.5,"YOU DIED >:(",textscale_death,textscale_death,0);
-	draw_text_transformed(RES_W*0.5,(RES_H*0.5)+2,"YOU DIED >:(",textscale_death,textscale_death,0);
-	draw_text_transformed(RES_W*0.5,(RES_H*0.5)-2,"YOU DIED >:(",textscale_death,textscale_death,0);
-	draw_set_text(c_white,fnt_default,fa_center,fa_middle);
-	draw_text_transformed(RES_W*0.5,RES_H*0.5,"YOU DIED >:(",textscale_death,textscale_death,0);
+	draw_text_transformed((RES_W*0.5)+2,RES_H*0.5,"RUN FAILED",textscale_death,textscale_death,0);
+	draw_text_transformed((RES_W*0.5)-2,RES_H*0.5,"RUN FAILED",textscale_death,textscale_death,0);
+	draw_text_transformed(RES_W*0.5,(RES_H*0.5)+2,"RUN FAILED",textscale_death,textscale_death,0);
+	draw_text_transformed(RES_W*0.5,(RES_H*0.5)-2,"RUN FAILED",textscale_death,textscale_death,0);
+	draw_set_text(c_red,fnt_default,fa_center,fa_middle);
+	draw_text_transformed(RES_W*0.5,RES_H*0.5,"RUN FAILED",textscale_death,textscale_death,0);
+}else if((room == rm_death_scrn)&&(global.win == true)){
+	draw_set_text(c_black,fnt_default,fa_center,fa_middle);
+	draw_text_transformed((RES_W*0.5)+2,RES_H*0.5,"RUN COMPLETE",textscale_death,textscale_death,0);
+	draw_text_transformed((RES_W*0.5)-2,RES_H*0.5,"RUN COMPLETE",textscale_death,textscale_death,0);
+	draw_text_transformed(RES_W*0.5,(RES_H*0.5)+2,"RUN COMPLETE",textscale_death,textscale_death,0);
+	draw_text_transformed(RES_W*0.5,(RES_H*0.5)-2,"RUN COMPLETE",textscale_death,textscale_death,0);
+	draw_set_text(c_lime,fnt_default,fa_center,fa_middle);
+	draw_text_transformed(RES_W*0.5,RES_H*0.5,"RUN COMPLETE",textscale_death,textscale_death,0);
 }
+
 #endregion
 

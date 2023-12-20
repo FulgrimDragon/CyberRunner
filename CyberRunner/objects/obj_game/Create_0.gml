@@ -12,7 +12,7 @@ textscale_credits = 1.5;
 textscale_health = 1;
 textscale_levels = 0.8;
 textscale_score = 0.7;
-textscale_death = 5;
+textscale_death = 8;
 
 //splash
 splash_timer = 0;
