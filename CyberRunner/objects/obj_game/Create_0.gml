@@ -3,6 +3,8 @@
 //set game res
 #macro RES_W 1366
 #macro RES_H 768
+#macro SAVEFILE "Save.ini"
+#macro VERSION "v0.2.0-alpha"
 
 //set gui scale
 display_set_gui_size(RES_W,RES_H);

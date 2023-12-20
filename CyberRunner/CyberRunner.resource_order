@@ -34,6 +34,7 @@
     {"name":"carousel","order":1,"path":"folders/Sprites/Game Sprites/Menus/carousel.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"highscore","order":3,"path":"folders/Objects/Game Objects/Level objects/highscore.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"snd_select","order":2,"path":"sounds/snd_select/snd_select.yy",},
@@ -86,6 +87,7 @@
     {"name":"obj_wall","order":1,"path":"objects/obj_wall/obj_wall.yy",},
     {"name":"screen_shake","order":1,"path":"scripts/screen_shake/screen_shake.yy",},
     {"name":"spr_left_mover","order":1,"path":"sprites/spr_left_mover/spr_left_mover.yy",},
+    {"name":"par_saver","order":1,"path":"objects/par_saver/par_saver.yy",},
     {"name":"spr_right_mover","order":2,"path":"sprites/spr_right_mover/spr_right_mover.yy",},
     {"name":"snd_destroy","order":3,"path":"sounds/snd_destroy/snd_destroy.yy",},
   ],
