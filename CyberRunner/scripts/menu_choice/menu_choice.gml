@@ -5,13 +5,13 @@ function menu_choice(_menu_pos){
 	{
 		case 0:
 		{
-			slide_transition(TRANS_MODE.GOTO,rm_dev);
+			slide_transition(TRANS_MODE.GOTO,rm_menu);
 			break;
 		}
 		
 		case 1:
 		{
-			
+			slide_transition(TRANS_MODE.GOTO,rm_dev);			
 			break;
 		}
 		
@@ -23,7 +23,7 @@ function menu_choice(_menu_pos){
 		
 		case 3:
 		{
-			slide_transition(TRANS_MODE.GOTO,rm_menu);
+
 			break;
 		}
 	}

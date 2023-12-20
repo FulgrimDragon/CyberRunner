@@ -68,9 +68,23 @@ if((room == rm_death_scrn)&&(global.win == false)){
 
 #endregion
 
+#region
+if(room == rm_level_select){
+	//get level highscore
+	ini_open(SAVEFILE);
+	var _highscore = ini_read_real("HIGHSCORE",level[obj_carousel_menu.item],0);
+	ini_close();
+	
+	//draw highscores
+	if(obj_carousel_menu.item != 0){
+		draw_set_text(c_white,fnt_default,fa_center,fa_middle);
+		draw_text_transformed(RES_W*0.5,RES_H*0.5,"HIGHSCORE: "+string(_highscore),textscale_score,textscale_score,0);
+	}
+}
+#endregion
+
 #region draw version
-if (room == rm_menu)
-{
+if(room == rm_menu){
 	draw_set_text(c_black,fnt_default,fa_left,fa_bottom);
 	draw_text_transformed(4,RES_H-5,VERSION,textscale_version,textscale_version,0);
 	draw_text_transformed(6,RES_H-5,VERSION,textscale_version,textscale_version,0);
