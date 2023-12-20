@@ -68,3 +68,15 @@ if((room == rm_death_scrn)&&(global.win == false)){
 
 #endregion
 
+#region draw version
+if (room == rm_menu)
+{
+	draw_set_text(c_black,fnt_default,fa_left,fa_bottom);
+	draw_text_transformed(4,RES_H-5,VERSION,textscale_version,textscale_version,0);
+	draw_text_transformed(6,RES_H-5,VERSION,textscale_version,textscale_version,0);
+	draw_text_transformed(5,RES_H-4,VERSION,textscale_version,textscale_version,0);
+	draw_text_transformed(5,RES_H-6,VERSION,textscale_version,textscale_version,0);
+	draw_set_text(c_gray,fnt_default,fa_left,fa_bottom);
+	draw_text_transformed(5,RES_H-5,VERSION,textscale_version,textscale_version,0);
+}
+#endregion
