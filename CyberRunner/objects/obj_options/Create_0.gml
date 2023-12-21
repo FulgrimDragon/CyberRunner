@@ -17,6 +17,7 @@ example:
 menu[1] = "Continue";
 menu[0] = "Main Menu";
 */
+menu[3] = "CLEAR LEVEL DATA";
 menu[2] = "MUSIC: ";
 menu[1] = "FULLSCREEN: ";
 menu[0] = "BACK";

@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Timers",
-    "path": "folders/Objects/Game Objects/Level objects/Parent objects/Timers.yy",
+    "name": "Parent objects",
+    "path": "folders/Objects/Game Objects/Level objects/Parent objects.yy",
   },
   "parentObjectId": null,
   "persistent": false,

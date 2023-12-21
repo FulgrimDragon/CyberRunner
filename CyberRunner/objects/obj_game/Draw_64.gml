@@ -1,7 +1,7 @@
 /// @desc GUI
 
 #region GUI
-if(room == rm_dev){
+if((room == rm_dev) || (room == rm_lvl_1) || (room == rm_lvl_2)|| (room == rm_lvl_3)){
 	//healthbar
 	var _pc;
 	_pc = (global.health/global.health_max)*100;

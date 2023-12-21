@@ -1,15 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Object29",
+  "name": "obj_saver_lvl_2",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_saver","path":"objects/par_saver/par_saver.yy",},"propertyId":{"name":"level","path":"objects/par_saver/par_saver.yy",},"value":"lvl1",},
+  ],
   "parent": {
-    "name": "Level 1",
-    "path": "folders/Objects/Game Objects/Level objects/Levels/Level 1.yy",
+    "name": "Level 2",
+    "path": "folders/Objects/Game Objects/Level objects/Levels/Level 2.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "par_saver",
+    "path": "objects/par_saver/par_saver.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

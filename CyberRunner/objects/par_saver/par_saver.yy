@@ -8,8 +8,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "highscore",
-    "path": "folders/Objects/Game Objects/Level objects/Parent objects/highscore.yy",
+    "name": "Parent objects",
+    "path": "folders/Objects/Game Objects/Level objects/Parent objects.yy",
   },
   "parentObjectId": null,
   "persistent": false,

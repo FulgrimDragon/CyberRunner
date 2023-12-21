@@ -54,6 +54,10 @@ if (menu_committed != -1)
 	*/
 	switch (menu_committed)
 	{
+		case 3:
+			file_delete(SAVEFILE);
+			room_restart();
+			break;
 		case 2:		
 			if(global.music) global.music = false; else global.music = true;
 			room_restart();
