@@ -5,7 +5,7 @@
   "eventList": [],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_timer","path":"objects/par_timer/par_timer.yy",},"propertyId":{"name":"seconds","path":"objects/par_timer/par_timer.yy",},"value":"60",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_timer","path":"objects/par_timer/par_timer.yy",},"propertyId":{"name":"seconds","path":"objects/par_timer/par_timer.yy",},"value":"120",},
   ],
   "parent": {
     "name": "Level 3",

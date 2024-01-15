@@ -6,13 +6,13 @@
   "managed": true,
   "overriddenProperties": [
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_spawner","path":"objects/par_spawner/par_spawner.yy",},"propertyId":{"name":"enemy","path":"objects/par_spawner/par_spawner.yy",},"value":"True",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_spawner","path":"objects/par_spawner/par_spawner.yy",},"propertyId":{"name":"enemy_frq","path":"objects/par_spawner/par_spawner.yy",},"value":"spawn_frq(0.5,1)",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_spawner","path":"objects/par_spawner/par_spawner.yy",},"propertyId":{"name":"enemy_frq","path":"objects/par_spawner/par_spawner.yy",},"value":"spawn_frq(0.1,0.4)",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_spawner","path":"objects/par_spawner/par_spawner.yy",},"propertyId":{"name":"wall","path":"objects/par_spawner/par_spawner.yy",},"value":"True",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_spawner","path":"objects/par_spawner/par_spawner.yy",},"propertyId":{"name":"wall_frq","path":"objects/par_spawner/par_spawner.yy",},"value":"spawn_frq(4,5)",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_spawner","path":"objects/par_spawner/par_spawner.yy",},"propertyId":{"name":"wall_frq","path":"objects/par_spawner/par_spawner.yy",},"value":"spawn_frq(1,3)",},
     {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_spawner","path":"objects/par_spawner/par_spawner.yy",},"propertyId":{"name":"power_ups","path":"objects/par_spawner/par_spawner.yy",},"value":"True",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_spawner","path":"objects/par_spawner/par_spawner.yy",},"propertyId":{"name":"health_frq","path":"objects/par_spawner/par_spawner.yy",},"value":"spawn_frq(5,6)",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_spawner","path":"objects/par_spawner/par_spawner.yy",},"propertyId":{"name":"shield_frq","path":"objects/par_spawner/par_spawner.yy",},"value":"spawn_frq(8,9)",},
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_spawner","path":"objects/par_spawner/par_spawner.yy",},"propertyId":{"name":"firepower_frq","path":"objects/par_spawner/par_spawner.yy",},"value":"spawn_frq(9,10)",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_spawner","path":"objects/par_spawner/par_spawner.yy",},"propertyId":{"name":"health_frq","path":"objects/par_spawner/par_spawner.yy",},"value":"spawn_frq(10,12)",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_spawner","path":"objects/par_spawner/par_spawner.yy",},"propertyId":{"name":"shield_frq","path":"objects/par_spawner/par_spawner.yy",},"value":"spawn_frq(15,20)",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_spawner","path":"objects/par_spawner/par_spawner.yy",},"propertyId":{"name":"firepower_frq","path":"objects/par_spawner/par_spawner.yy",},"value":"spawn_frq(20,30)",},
   ],
   "parent": {
     "name": "Level 3",

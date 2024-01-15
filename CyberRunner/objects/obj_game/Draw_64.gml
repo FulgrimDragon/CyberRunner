@@ -48,7 +48,7 @@ if(room == rm_credits){
 #endregion
 
 #region //death screen text
-if((room == rm_death_scrn)&&(global.win == false)){
+if(((room == rm_death_scrn)||(room == rm_death_scrn_2)||(room == rm_death_scrn_3))&&(global.win == false)){
 	draw_set_text(c_black,fnt_default,fa_center,fa_middle);
 	draw_text_transformed((RES_W*0.5)+2,RES_H*0.5,"RUN FAILED",textscale_death,textscale_death,0);
 	draw_text_transformed((RES_W*0.5)-2,RES_H*0.5,"RUN FAILED",textscale_death,textscale_death,0);
@@ -56,7 +56,7 @@ if((room == rm_death_scrn)&&(global.win == false)){
 	draw_text_transformed(RES_W*0.5,(RES_H*0.5)-2,"RUN FAILED",textscale_death,textscale_death,0);
 	draw_set_text(c_red,fnt_default,fa_center,fa_middle);
 	draw_text_transformed(RES_W*0.5,RES_H*0.5,"RUN FAILED",textscale_death,textscale_death,0);
-}else if((room == rm_death_scrn)&&(global.win == true)){
+}else if(((room == rm_death_scrn)||(room == rm_death_scrn_2)||(room == rm_death_scrn_3))&&(global.win == true)){
 	draw_set_text(c_black,fnt_default,fa_center,fa_middle);
 	draw_text_transformed((RES_W*0.5)+2,RES_H*0.5,"RUN COMPLETE",textscale_death,textscale_death,0);
 	draw_text_transformed((RES_W*0.5)-2,RES_H*0.5,"RUN COMPLETE",textscale_death,textscale_death,0);

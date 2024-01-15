@@ -5,7 +5,7 @@
   "eventList": [],
   "managed": true,
   "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_saver","path":"objects/par_saver/par_saver.yy",},"propertyId":{"name":"level","path":"objects/par_saver/par_saver.yy",},"value":"lvl1",},
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"par_saver","path":"objects/par_saver/par_saver.yy",},"propertyId":{"name":"level","path":"objects/par_saver/par_saver.yy",},"value":"lvl3",},
   ],
   "parent": {
     "name": "Level 3",
