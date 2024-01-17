@@ -4,7 +4,7 @@
 #macro RES_W 1366
 #macro RES_H 768
 #macro SAVEFILE "file.ini"
-#macro VERSION "v0.3.0-alpha"
+#macro VERSION "v1.0.0"
 
 //score data
 level[0] = "menu";
